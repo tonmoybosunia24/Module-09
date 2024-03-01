@@ -1,0 +1,111 @@
+/* Shared Styles */
+
+/* Google Fonts Use  */
+
+*{
+  font-family: "Work Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.Btn-Primary{
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 1.1rem;
+    background: #FF900E;
+    padding: 20px 25px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+/* Header Section Styles */
+
+header{
+    background-color: #ff8f0e2c;
+    padding: 50px 150px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Nav-Title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+}
+nav > ul{
+    display: flex;
+}
+nav > ul > li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+nav > ul > li > a{
+    text-decoration: none;
+    color: #424242;
+}
+
+/* Banner Styles */
+
+.Banner-Content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0px auto;
+}
+.Banner-Title{
+    font-size: 4rem;
+    font-weight: 700px;
+    color: #131313;
+    margin: 40px 0px 20px 0px;
+}
+.Banner-Description{
+    color: #727272;
+    margin-bottom: 15px;
+}
+.Banner > img{
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+/* Responsive Media Queries */
+
+/* Mobile Devices */
+
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    .Nav-Title{
+        font-size: 2rem;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav > ul{
+        padding: 20px 0px;
+        text-align: center;
+    }
+    nav > ul > li{
+        margin-right: 25px;
+    }
+    nav > ul > li:first-child{
+        padding-left: 20px;
+    }
+    .Banner-Title{
+        font-size: 30px;
+        margin: 10px 0px 20px 0px;
+    }
+}
+
+/* Tablet Devices */
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    header{
+        padding: 60px;
+    }
+}
