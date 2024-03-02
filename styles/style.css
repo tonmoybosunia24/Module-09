@@ -71,6 +71,46 @@ nav > ul > li > a{
     margin-top: 10px;
 }
 
+/* Main Section Styles */
+
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Teams Styles */
+
+.Teams-Container{
+    display: flex;
+    align-items: center;
+    padding: 50px 0px;
+}
+.Teams-Img-Container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+.Teams-Img-Container > img{
+    width: 200px;
+}
+.Teams-Content{
+    padding-left: 2rem;
+    padding-right: 1.5rem;
+}
+.Teams-Content-Heading{
+    font-size: 2.8rem;
+}
+.Quick{
+    color: #727272;
+    font-weight: 500;
+}
+.Features{
+    color: #FF900E;
+    font-weight: 700;
+}
+.Teams-Content-Description{
+    padding: 20px 0px;
+}
 
 /* Responsive Media Queries */
 
