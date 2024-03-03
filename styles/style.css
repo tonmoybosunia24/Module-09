@@ -169,4 +169,7 @@ main{
     .Teams-Img-Container > img{
         width: 295px;
     }
+    .Teams-Content{
+        padding-left: 73px;
+    }
 }
