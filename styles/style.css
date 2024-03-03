@@ -13,7 +13,7 @@
     color: #FFF;
     font-size: 1.1rem;
     background: #FF900E;
-    padding: 20px 25px;
+    padding: 17px 22px;
     border: none;
     cursor: pointer;
     margin-bottom: 15px;
@@ -118,8 +118,55 @@ main{
     color: #727272;
 }
 
+/* Features Section Style */
+
+.Features-Container{
+    display: flex;
+    gap: 50px;
+    margin-top: 70px;
+}
+.Features-Content > h3{
+    font-size: 40px;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+.Features-Content > p{
+    margin: 15px 0px;
+}
+.Features-Content .Features-Content-Card{
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.6);
+}
+.Features-Image > img{
+    width: 450px;
+    margin-left: 45px;
+}
+.Ten-Years-Bedge{
+    border-radius: 8px;
+    background-color: #FF900E;
+    color: #FFF;
+    width: 200px;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    bottom: 93px;
+}
+.Ten-Years-Bedge > h2{
+    font-size: 4rem;
+    margin: 0;
+}
+.Ten-Years-Bedge > p{
+    font-size: 1.5rem;
+}
+
 /* Facts Section Styles */
 
+.Facts{
+    margin-bottom: 20px;
+}
 .Facts-Card-Container{
     display: flex;
     justify-content: space-between;
@@ -147,6 +194,36 @@ main{
 .Facts-Description{
     padding: 30px 0px;
     font-size: 1.4rem;
+}
+
+/* Sponsores Section Styles */
+
+.Sponsores-Img-Container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.Sponsors{
+    text-align: center;
+    margin-top: 30px;
+}
+.Sponsores-Description{
+    color: #727272;
+    margin: 20px 0px 25px 0px;
+}
+.Sponsores-Img-Container img{
+    width: 165px;
+}
+
+.Footer-Section{
+    background-color: #FFF4E7;
+    padding: 20px 0px;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    color: #727272;
 }
 
 /* Responsive Media Queries */
@@ -199,11 +276,42 @@ main{
         gap: 20px;
     }
     .Facts-Card-Container .Card{
+        width: 80%;
         margin: 0 auto;
     }
     .Facts-Description{
         font-size: 1.1rem;
         padding: 15px 0px;
+    }
+    .Sponsors{
+        margin: 0px 40px;
+    }
+    .Sponsores-Img-Container{
+        flex-direction: column;
+    }
+    .Features-Container{
+        flex-direction: column;
+        margin: 0px 40px;
+        margin-bottom: 0px;
+    }
+    .Features-Image > img{
+        width: 100%;
+        margin: 0px;
+    }
+    .Ten-Years-Bedge{
+        width: 100px;
+        padding: 20px 10px;
+        text-align: center;
+        position: relative;
+        bottom: 40px;
+        left: -30px;
+    }
+    .Ten-Years-Bedge > h2{
+        font-size: 1rem;
+        margin: 0;
+    }
+    .Ten-Years-Bedge > p{
+        font-size: 0.5rem;
     }
 }
 
@@ -229,5 +337,17 @@ main{
     }
     .Facts-Card-Container{
         gap: 5px;
+    }
+    .Sponsors{
+        width: 620px;
+        margin: 0 auto;
+    }
+    .Sponsores-Img-Container{
+        flex-direction: column;
+    }
+    .Features-Container{
+        flex-direction: column;
+        width: 620px;
+        margin: 0 auto;
     }
 }
